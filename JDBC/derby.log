@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Feb 26 19:07:10 EET 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0144-6f2a-0cf7-0000031616b0 
+on database directory /home/plamen/workspace/JDBC/wombat with class loader sun.misc.Launcher$AppClassLoader@535ff48b 
+Loaded from file:/home/plamen/workspace/JDBC/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_27-b27
+user.dir=/home/plamen/workspace/JDBC
+os.name=Linux
+os.arch=amd64
+os.version=3.8.0-35-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
