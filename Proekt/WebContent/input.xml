@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<estates>
+
+<estate name="Estate1"> <address> <city>Sofia</city>
+</address>
+</estate>
+<estate name="Estate2"> <address> <city>Plovdiv</city>
+</address>
+</estate>
+</estates>
