@@ -1,0 +1,74 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+	href="./bootstrap/css/bootstrap.css" />
+
+</head>
+<body>
+	<button class="btn btn-primary" data-toggle="modal"
+		data-target="#myModal">Add an estate</button>
+
+	<button id="show" class="btn btn-primary">Show all estates</button>
+	
+	<input id="search_name" type="text">
+	<button id="search" class="btn btn-primary">Search</button>	
+	
+	<div id="container">
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Add an estate</h4>
+				</div>
+				<div class="modal-body">
+					<input id="name" type="text" placeholder="name">
+					<br/>
+					<input id="city" type="text" placeholder="city">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button id="add" type="button" class="btn btn-primary">Add</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- Jquery plugins-->
+	<script src="./js/libs/jquery-1.10.2/jquery-1.10.2.min.js"></script>
+	<script src="./js/libs/jqueryui-1.10.0/jquery-ui.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.js" type="text/javascript"
+		charset="utf-8"></script>
+
+	<script src="./js/libs/mustache.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/libs/jquery-mustache/jquery.mustache.js"
+		type="text/javascript" charset="utf-8"></script>
+
+	<!-- Bootbox js for alert dialog in the style of bootstrap -->
+	<script src="./js/libs/bootbox.min.js" type="text/javascript"
+		charset="utf-8"></script>
+
+	<!-- Jquery plugin for validating form data -->
+	<script src="./js/libs/jquery.validate-1.11.1.js"
+		type="text/javascript" charset="utf-8"></script>
+
+	<!-- i18n plugin for localization -->
+	<script src="./js/libs/i18next-1.6.3.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./bootstrap/js/bootstrap.js" type="text/javascript"
+		charset="utf-8"></script>
+
+	<script src="./js/custom.js"></script>
+</body>
+</html>
